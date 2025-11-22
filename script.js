@@ -21,6 +21,6 @@ document.getElementById("btn").addEventListener("click", () => {
 
     setTimeout(() => {
       menu.classList.add("hidden");
-    }, 280);
+    }, 250);
   }
 });
