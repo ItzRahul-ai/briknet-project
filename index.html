@@ -12,10 +12,10 @@
 <body>
 
    <!-- main section -->
-   <section>
+   <section class="w-full">
 
       <!-- nav bar -->
-      <nav class="flex justify-between sticky top-0 z-10 text-white font-bold lg:px-20 px-10 py-5">
+      <nav class="flex justify-between absolute w-full top-0 z-10 text-white font-bold lg:px-20 px-10 py-5">
 
          <!-- brand name section -->
          <div class="flex text-2xl justify-center items-center gap-3">
@@ -88,10 +88,11 @@
       </nav>
 
       <!-- hero secton -->
-      <section
-         class="bg-[url('./asset/hero-bg.png')] bg-center bg-no-repeat bg-cover w-full min-h-[700px] absolute top-0 flex justify-center items-center">
+      <d class="relative">
 
-         <div class="lg:w-2/3 w-full text-white flex justify-center items-center flex-col lg:px-20 md:px-10 px-5">
+       <div class="bg-[url('./asset/hero-bg.png')] bg-center bg-no-repeat bg-cover w-full min-h-[700px] top-0 flex justify-center items-center ">
+
+           <div class="lg:w-2/3 w-full text-white flex justify-center items-center flex-col lg:px-20 md:px-10 px-5">
 
             <!-- top text -->
             <div
@@ -120,8 +121,110 @@
 
          </div>
 
-      </section>
+       </div>
 
+      </d>
+
+      <!-- companies section -->
+       <d class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 text-black z-5 py-10 gap-5">
+
+         <!-- content 1 -->
+          <div class="flex justify-center items-center gap-1 font-bold">
+            <span>Logo</span>
+
+            <span>
+              <svg width="30" height="30" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M32 4L12 10V28C12 42.5 20.7 54.9 32 60C43.3 54.9 52 42.5 52 28V10L32 4Z" fill="#555"/>
+  <path d="M26 22C26 19.8 27.8 18 30 18H34C36.2 18 38 19.8 38 22V34C38 36.2 36.2 38 34 38H30C27.8 38 26 36.2 26 34V22Z" fill="white"/>
+</svg>
+
+            </span>
+
+            <span>ipsum</span>
+          </div>
+
+         <!-- content 2 -->
+          <div class="flex justify-center items-center gap-1 font-bold">
+            <span>
+               <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="30" cy="30" r="20" fill="#555"/>
+<circle cx="30" cy="18" r="6" fill="white"/>
+<circle cx="30" cy="42" r="6" fill="white"/>
+<circle cx="18" cy="30" r="6" fill="white"/>
+<circle cx="42" cy="30" r="6" fill="white"/>
+</svg>
+
+            </span>
+            <span>Logoipsum</span>
+          </div>
+
+         <!-- content 3 -->
+          <div class="flex justify-center items-center gap-1 font-bold">
+            <span>Logo</span>
+            <span>
+               <!-- Globe icon -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="30" height="30" role="img" aria-label="Globe icon">
+  <title>Globe</title>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <circle cx="32" cy="32" r="26"/>
+    <!-- equator -->
+    <ellipse cx="32" cy="32" rx="24" ry="6"/>
+    <!-- meridians -->
+    <path d="M32 6v52"/>
+    <path d="M20 8c6 8 6 40 0 48"/>
+    <path d="M44 8c-6 8-6 40 0 48"/>
+    <!-- latitude curves -->
+    <path d="M12 24c8-2 32-2 40 0"/>
+    <path d="M12 40c8 2 32 2 40 0"/>
+  </g>
+</svg>
+
+            </span>
+            <span>ipsum</span>
+          </div>
+
+         <!-- content 4 -->
+          <div class="flex justify-center items-center gap-1 font-bold">
+             <span>
+               <!-- Square smiley/chat face -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="30" height="30" role="img" aria-label="Square smiley icon">
+  <title>Square face</title>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="8" y="8" width="48" height="48" rx="8" fill="currentColor"/>
+    <!-- eyes as small rounded squares cut out -->
+    <g fill="#fff" stroke="none">
+      <rect x="22" y="24" width="6" height="6" rx="1.5"/>
+      <rect x="36" y="24" width="6" height="6" rx="1.5"/>
+    </g>
+    <!-- mouth -->
+    <path d="M24 38c3 3 13 3 16 0" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
+
+             </span>
+            <span>Logoipsum</span>
+          </div>
+
+         <!-- content 5 -->
+          <div class="flex justify-center items-center gap-1 font-bold">
+             <span>
+               <!-- Icon 5: shield / rounded block -->
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 64 64" role="img" aria-label="Shield logo">
+  <title>Shield logo</title>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+    <path d="M32 10 L18 16 v14 c0 12 10 20 14 22 4-2 14-10 14-22V16z" />
+    <!-- inner mark -->
+    <rect x="22" y="22" width="20" height="12" rx="2" ry="2" fill="currentColor"/>
+  </g>
+</svg>
+
+             </span>
+            <span>Logoipsum</span>
+          </div>
+
+       </div>
+
+      
    </section>
 
 
