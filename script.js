@@ -9,7 +9,7 @@ document.getElementById("btn").addEventListener("click", () => {
 
     menu.style.height = "0px";
 
-    let fullHeight = "250px";
+    let fullHeight = "300px";
 
     requestAnimationFrame(() => {
       menu.style.height = fullHeight;
@@ -21,6 +21,6 @@ document.getElementById("btn").addEventListener("click", () => {
 
     setTimeout(() => {
       menu.classList.add("hidden");
-    }, 250);
+    }, 200);
   }
 });
